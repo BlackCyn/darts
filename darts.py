@@ -1,8 +1,8 @@
 game=int(input("Введите количество игр которое хотите сыграть: "))
 for i in range(game):
-    N,K=map(int,input("Количество секторов и номер черной мишени: ").split())
+    N,K=map(int,input("Введите количество секторов и номер черной мишени: ").split())
     max=-999
-    arr = list(map(int, input("Введите баллы за сектор: ").split()))
+    arr = list(map(int, input("Введите баллы за каждый сектор: ").split()))
     if len(arr)!=N:
         print('Введеено неверное количество секторов ')
         break
