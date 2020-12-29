@@ -20,15 +20,3 @@ for i in range(game):
                     if sum > max:
                         max = sum
             print("Максимальный рузельтат, который может получить игрок = ",max)
-else:
-            if (K == -1):
-                for i in range(N):
-                    sum = 0
-                    for j in range(N):
-                        d = i + j
-                        if d > N - 1:
-                            d = d - N
-                        sum = sum + arr[d]
-                        if sum > max:
-                            max = sum
-                print("Максимальный рузельтат, который может получить игрок = ",max)
